@@ -1,3 +1,9 @@
+# Notes for pyraf for OSIRIS KAI Pipeline
+
+1. Install Docker
+2. Run './build.sh' to build the astroconda environment with pyraf27 and drizzle docker container
+3. Run './pyraf2' to run pyraf under python 2.7. This scrip should end with putting you in a pyraf shell
+
 # Docker utilities and scripts to run IRAF and PyRAF
 
 These tools help build and run Docker images containing the full [AstroConda](https://astroconda.readthedocs.io/en/latest/) python 2.7/PyRAF/IRAF legacy stack or the [IRAF Community](https://github.com/iraf-community/iraf) Debian/Ubuntu packages. The two main sticking points with running IRAF and PyRaf within a docker container are:
